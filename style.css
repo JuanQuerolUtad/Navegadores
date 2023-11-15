@@ -1,0 +1,132 @@
+#mesa{
+    height: 35vh;
+    width: 40vw;
+    background-color: green;
+    border-radius: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: row;
+    
+    justify-content: space-around;
+    align-items: center;
+}
+#ordenador{
+    height: 65vh;
+    width: 80vw;
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgb(57, 57, 105);
+    border-radius: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+#pantalla{
+    height: 61vh;
+    width: 70vw;
+    overflow-y: scroll;
+    vertical-align: 20px;
+    background-color: rgb(0, 0, 0);
+    border-radius: 20px;
+    color: green;
+    
+}
+#cuerpo{
+    background: radial-gradient(
+        circle at 13% 100%,
+        #462b05 16%,
+        #d1a816 50%,
+        #604a07 70%,
+        #d69405 45%,
+        #4e3202
+    );
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+#anterior{
+    
+    transition: transform ease-in-out 2s;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+    
+    
+}
+#carta{
+    height: 30vh;
+    width: 10vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    background-color: white;
+    transition: transform ease-in-out 2s;
+    border-radius: 10px;
+    
+    
+    
+}
+#posterior{
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    transition: transform ease-in-out 2s;
+    
+}
+#anterior{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.dorso{
+    height: 30vh;
+    width: 10vw;
+    background-color: rgb(199, 70, 70);
+    border-radius: 10px;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+@keyframes moverderecha{
+    0%{
+        left: 0;
+        
+    }
+    50%{
+        left:72;
+    }
+    100%{
+        left:0;
+        
+    }
+}
+.imagen{
+    height: 5rem;
+    width: 5rem;
+}
+#tituloP{
+    height: 3rem;
+    width: 35rem;
+    background-color: bisque;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+
+}
+
+
